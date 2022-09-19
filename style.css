@@ -15,7 +15,8 @@ body {
   display: flex;
   margin-left: auto;
   margin-top: 0;
-  float: right;
+  height: 50px;
+  background-color: gray;
 }
 
 #trybewarts-forms-logo {
