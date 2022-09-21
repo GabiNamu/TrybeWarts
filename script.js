@@ -80,3 +80,9 @@ window.onload = function contadorCaracteres() {
     }
   }, 10);
 };
+
+function preventaction(event) {
+  event.preventDefault();
+}
+
+buttonForm.addEventListener('click', preventaction);

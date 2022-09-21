@@ -1,6 +1,8 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  height: 100px;
+  margin-bottom: 10px;
 }
 
 body {
@@ -9,6 +11,9 @@ body {
 
 .trybewarts-login {
   display: flex;
+  height: 50px;
+  width: 400px;
+  margin: auto 10px auto auto;
 }
 
 .btn {
@@ -17,6 +22,7 @@ body {
   margin-top: 0;
   height: 50px;
   background-color: gray;
+  align-items: center;
 }
 
 #trybewarts-forms-logo {
@@ -44,6 +50,13 @@ div {
   box-shadow: -6px 8px 0 rgb(162, 162, 162);
 }
 
+#trybewarts-header-title {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-weight: 700;
+}
+
 p {
   margin-right: 5px;
   margin-left: 5px;
@@ -56,6 +69,14 @@ p {
 main {
   display: flex;
   flex-direction: column;
+}
+
+.email {
+  margin-right: 5px;
+}
+
+.pass {
+  margin-right: 5px;
 }
 
 #nome-sobrenome {
@@ -250,9 +271,21 @@ main {
 
 #counter {
   position: absolute;
-  top: 780px;
+  top: 650px;
   left: 690px;
   background-color: rgba(200, 200, 200, 0.77);
   padding: 5px;
   border-radius: 50px;
+}
+
+.img {
+  width: 400px;
+  margin-left: 900px;
+}
+
+#form-data {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  margin: auto;
 }

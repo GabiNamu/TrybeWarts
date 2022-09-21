@@ -17,8 +17,8 @@
 <h1 id="trybewarts-header-title">Trybewarts</h1>
 <div>
   <form class="trybewarts-login">
-    <input type="email" name="email" class="email" placeholder="Email">
-    <input type="password" name="password" class="pass" placeholder="Senha">
+    <input type="email" name="email" class="email form-control" placeholder="Email">
+    <input type="password" name="password" class="pass form-control" placeholder="Senha">
     <button class="btn">Entrar</button>
   </form>
 </div>
@@ -115,7 +115,7 @@
             <div class="checkbox-div">
             <input
               type="checkbox"
-              name="HoFs"
+              name="conteudo"
               class="subject form-check-input"
               value="HoFs"
               id="conteudo-1"
@@ -125,7 +125,7 @@
         <div class="checkbox-div">
             <input
               type="checkbox"
-              name=""
+              name="conteudo"
               class="subject form-check-input"
               value="Jest"
               id="conteudo-2"
@@ -138,6 +138,7 @@
               class="subject form-check-input"
               value="Promises"
               id="conteudo-3"
+              name="conteudo"
             />
             <label for="conteudo-3" class="form-check-label">Promises</label>
         </div>
@@ -147,6 +148,7 @@
               class="subject form-check-input"
               value="React"
               id="conteudo-4"
+              name="conteudo"
             />
             <label for="conteudo-4" class="form-check-label">React</label>
         </div>
@@ -156,13 +158,14 @@
               class="subject form-check-input"
               value="SQL"
               id="conteudo-5"
+              name="conteudo"
             />
             <label for="conteudo-5" class="form-check-label">SQL</label>
         </div>
         <div class="checkbox-div">
             <input
               type="checkbox"
-              name=""
+              name="conteudo"
               class="subject form-check-input"
               value="Python"
               id="conteudo-6"
@@ -232,6 +235,16 @@
         <label for="agreement" id="label-infos" class="form-check-label">Você concorda com o uso das informações acima?</label>
       </section>
       <button type="submit" id="submit-btn" disabled>Enviar</button>
+    </form>
+    <form id="form-data">
+      <label for="" id="label-div1"></label>
+      <label for=" "id="label-div2"></label>
+      <label for="" id="label-div3"></label>
+      <label for="" id="label-div4"></label>
+      <label for="" id="label-div5"></label>
+      <label for="" id="label-div6"></label>
+      <label for="" id="label-div7"></label>
+
     </form>
     <footer id="footer">
       Direitos reservados à Trybewarts©
